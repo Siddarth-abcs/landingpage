@@ -2,47 +2,106 @@ import React from "react";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 
 const Planat = () => {
+  const testimonials = [
+    {
+      quote: "image-10@2x.png",
+    },
+    {
+      quote: "image-10@2x.png",
+    },
+    {
+      quote: "image-10@2x.png",
+    },
+    {
+      quote: "image-10@2x.png",
+    },
+    {
+      quote: "image-10@2x.png",
+    },
+    {
+      quote: "image-10@2x.png",
+    },
+    {
+      quote: "image-10@2x.png",
+    },
+  ];
   return (
-    <div className="h-[] rounded-md flex flex-col antialiased bg-white py-12 dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
+    <div className="w-full bg-white">
+      <div className="w-11/12 m-auto border border-y-2 border-x-0 mb-8">
+        <div className="h-[20] mt-8 md:mt-0 rounded-md flex flex-col antialiased dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+          <InfiniteMovingCards
+            items={testimonials}
+            direction="right"
+            speed="fast"
+          />
+        </div>
+      </div>
+      <div className="w-5/6 mt-8 m-auto flex flex-col lg:flex-row">
+        <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
+          <h2 className="text-4xl font-bold mt-8 md:mt-0">
+            Full development cycle
+          </h2>
+          <p className="my-6">We use proven technologies</p>
+          <div>
+            <h3 className="text-2xl font-semibold my-2">Web</h3>
+            <p>
+              PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js /
+              Nuxt / MySQL / Laravel / GO lang / Django / Python
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold my-2">Mobile</h3>
+            <p>
+              Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm /
+              Coroutine / RxJava / RxSwift / Unit Test / Navigation
+            </p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2 lg:ml-40 flex flex-col text-xl gap-4">
+          <a className="flex items-center" href="#">
+            <span className="mr-4 hover:font-bold hover:underline">
+              iOS development
+            </span>
+            <img className="h-4" src="./↳ Icon Color.png" alt="" />
+          </a>
+          <a className="flex items-center" href="#">
+            <span className="mr-4 hover:font-bold hover:underline">
+              Android development
+            </span>
+            <img className="h-4" src="./↳ Icon Color.png" alt="" />
+          </a>
+          <a className="flex items-center" href="#">
+            <span className="mr-4 hover:font-bold hover:underline">
+              Web development
+            </span>
+            <img className="h-4" src="./↳ Icon Color.png" alt="" />
+          </a>
+          <a className="flex items-center" href="#">
+            <span className="mr-4 hover:font-bold hover:underline">
+              UI/UX design
+            </span>
+            <img className="h-4" src="./↳ Icon Color.png" alt="" />
+          </a>
+          <a className="flex items-center" href="#">
+            <span className="mr-4 hover:font-bold hover:underline">
+              Testing
+            </span>
+            <img className="h-4" src="./↳ Icon Color.png" alt="" />
+          </a>
+          <a className="flex items-center" href="#">
+            <span className="mr-4 hover:font-bold hover:underline">Launch</span>
+            <img className="h-4" src="./↳ Icon Color.png" alt="" />
+          </a>
+          <a className="flex items-center" href="#">
+            <span className="mr-4 hover:font-bold hover:underline">
+              IT consulting
+            </span>
+            <img className="h-4" src="./↳ Icon Color.png" alt="" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
-
-const testimonials = [
-  {
-    quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
-  },
-  {
-    quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-  },
-  {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
-  },
-];
 
 export default Planat;

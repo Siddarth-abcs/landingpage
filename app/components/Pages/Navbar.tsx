@@ -7,7 +7,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <div className="w-11/12 fixed top-4 md:top-6 lg:top-8 xl:top-10 inset-x-0 mx-auto z-50">
+    <div className="w-11/12 absolute top-4 md:top-6 lg:top-8 xl:top-10 inset-x-0 mx-auto z-50">
       <Menu setActive={setActive}>
         <div className="w-full flex justify-between">
           <div className="w-full lg:w-auto flex justify-between lg:justify-start">
@@ -19,7 +19,7 @@ const Navbar = () => {
             />
             <div className="hidden md:flex items-center gap-4 lg:gap-6">
               <div className="font-semibold text-gray-600 hover:text-gray-950">
-                Services{" "}
+                Services
               </div>
               <div className="font-semibold text-gray-600 hover:text-gray-950">
                 Media
@@ -37,30 +37,30 @@ const Navbar = () => {
             <div className="md:hidden block">
               <button
                 type="button"
-                class="inline-flex items-center justify-center p-2 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                className="inline-flex items-center justify-center p-2 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
                 onClick={() => setMenu(!menu)}
               >
-                <span class="sr-only">Open main menu</span>
+                <span className="sr-only">Open main menu</span>
                 {!menu ? (
                   <svg
-                    class="block h-10 w-10"
+                    className="block h-10 w-10"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                     />
                   </svg>
                 ) : (
                   <svg
-                    class="block h-8 w-8"
+                    className="block h-8 w-8"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,23 +68,22 @@ const Navbar = () => {
                     <path
                       d="M18 6L6 18"
                       stroke="black"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M6 6L18 18"
                       stroke="black"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 )}
               </button>
             </div>
           </div>
-          {/* mail number */}
           <div className="hidden lg:flex items-center gap-4">
             <div className="flex">
               <img
@@ -106,6 +105,7 @@ const Navbar = () => {
                 className=""
                 href="mailto:thousanditcompany@gmail.com"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 demo@gmail.com
               </a>
@@ -122,31 +122,31 @@ const Navbar = () => {
       >
         <a
           href="#"
-          class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+          className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
         >
           Services
         </a>
         <a
           href="#"
-          class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+          className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
         >
           Media
         </a>
         <a
           href="#"
-          class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+          className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
         >
           Cases
         </a>
         <a
           href="#"
-          class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+          className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
         >
           FAQ
         </a>
         <a
           href="#"
-          class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+          className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
         >
           Contacts
         </a>
