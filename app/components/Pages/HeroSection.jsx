@@ -4,11 +4,11 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div>
-      <div className="relative w-full h-full">
-        <div className="h-screen absolute inset-0 w-full dark:bg-white dark:bg-grid-black/[0.2] bg-grid-white/[0.2]"></div>
-        <div className="relative flex items-center justify-center w-full h-full ">
+      <div className="relative w-full">
+        <div className=" absolute inset-0 w-full dark:bg-white bg-white dark:bg-grid-black/[0.2] bg-grid-white/[0.2]"></div>
+        <div className="relative flex items-center justify-center w-full">
           {/* task project */}
-          <div className="relative w-5/6 md:mt-10 h-full md:h-screen m-auto flex flex-col lg:flex-row items-center md:gap-x-6">
+          <div className="relative w-5/6 md:mt-10 h-screen m-auto flex flex-col lg:flex-row items-center md:gap-x-6">
             {/* Text part */}
             <div className="w-full lg:mt-8 mt-28 md:mt-40 lg:w-1/2">
               <div className="max-w-3xl mx-auto">
