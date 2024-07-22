@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="md:w-11/12 m-auto py-8 bg-black md:rounded-xl">
         {/* part1 */}
         <div className="flex justify-start md:justify-center">
-          <img src="/logo-bg-3 2.svg" alt="" />
+          <img src="/logo-bg-3 2 (1).svg" alt="" />
         </div>
         {/* part2 */}
         <div className="text-white mx-12 my-6 flex flex-col md:flex-row flex-wrap md:justify-around">

@@ -195,7 +195,7 @@ const Industries = () => {
             </div>
             {/* Project Image */}
             <div className="md:ml-24 flex-1 mt-8 lg:mt-0">
-              <img src="./image 15 (1).svg" alt="Project" className="" />
+              <img src="/project1.png" alt="Project" className="" />
             </div>
           </div>
         </div>

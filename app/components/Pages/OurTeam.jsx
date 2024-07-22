@@ -33,7 +33,7 @@ const OurTeam = () => {
         </div>
         <CardContainer className="inter-var">
           <div className="w-full md:w-auto">
-            <img src="/Group 625868.svg" alt="Team illustration" />
+            <img src="/IMG_6115.png" alt="Team illustration" />
           </div>
         </CardContainer>
       </div>
