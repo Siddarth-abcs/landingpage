@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div>
       <div className="relative w-full h-full">
-        <div className="h-screen absolute inset-0 w-full dark:bg-white bg-black dark:bg-grid-black/[0.2] bg-grid-white/[0.2]"></div>
+        <div className="h-screen absolute inset-0 w-full dark:bg-white dark:bg-grid-black/[0.2] bg-grid-white/[0.2]"></div>
         <div className="relative flex items-center justify-center w-full h-full ">
           {/* task project */}
           <div className="relative w-5/6 md:mt-10 h-full md:h-screen m-auto flex flex-col lg:flex-row items-center md:gap-x-6">
