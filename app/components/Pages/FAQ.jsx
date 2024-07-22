@@ -2,13 +2,13 @@
 import React, { useState } from "react";
 
 const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState();
 
   const faqs = [
     {
       question: "What is the cost of a mobile application?",
       answer:
-        "The  cost depends on various factors such as features, complexity, and development time. cost depends on various factors such as features, complexity, and development time.",
+        "The cost depends on various factors such as features, complexity, and development time. cost depends on various factors such as features, complexity, and development time.",
     },
     {
       question: "How long will development take?",
@@ -29,8 +29,8 @@ const FAQ = () => {
 
   return (
     <div className="my-12 w-5/6 m-auto">
-      <h2 className="text-4xl font-bold my-4 ">FAQ</h2>
-      <div className=" grid grid-cols-1 md:grid-cols-2 gap-x-16">
+      <h2 className="text-4xl font-bold my-4">FAQ</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16">
         {faqs.map((faq, index) => (
           <div
             key={index}

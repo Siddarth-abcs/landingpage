@@ -21,6 +21,20 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/components/Pages/Industries.jsx",
+    "app/components/Pages/OurTeam.jsx",
+    "app/components/Pages/Planat.jsx",
+    "app/layout.js",
+    "app/components/Pages/Navbar.jsx",
+    "app/components/Pages/HeroSection.jsx",
+    "app/components/Pages/FAQ.jsx",
+    "app/components/Pages/DiscussProject.jsx",
+    "app/components/Pages/Footer.jsx"
+  ],
   "exclude": ["node_modules"]
 }
