@@ -13,15 +13,21 @@ const OurTeam = () => {
           </p>
           <div className="flex justify-between md:my-6">
             <div className="flex flex-col mb-4">
-              <span className="text-2xl md:text-4xl font-bold">28</span>
+              <span className="text-2xl md:text-3xl lg:text-4xl font-bold">
+                28
+              </span>
               <span>team members</span>
             </div>
             <div className="flex flex-col mb-4">
-              <span className="text-2xl md:text-4xl font-bold">+100</span>
+              <span className="text-2xl md:text-3xl lg:text-4xl font-bold">
+                +100
+              </span>
               <span>projects</span>
             </div>
             <div className="flex flex-col mb-4">
-              <span className="text-2xl md:text-4xl font-bold">7 years</span>
+              <span className="text-2xl md:text-3xl lg:text-4xl font-bold">
+                7 years
+              </span>
               <span>in IT sphere</span>
             </div>
           </div>
@@ -31,11 +37,11 @@ const OurTeam = () => {
             expensive but worth it.
           </p>
         </div>
-        <CardContainer className="inter-var">
-          <div className="w-full md:w-auto">
+        <div className="w-full md:w-1/2">
+          <CardContainer className="inter-var">
             <img src="/img-61151@2x.png" alt="Team illustration" />
-          </div>
-        </CardContainer>
+          </CardContainer>
+        </div>
       </div>
     </div>
   );
